@@ -20,9 +20,9 @@ fi
 vps="vps";
 
 if [[ $vps = "vps" ]]; then
-	source="https://raw.githubusercontent.com/Clrkz/VPSAutoScrptz/master"
+	source="https://raw.githubusercontent.com/shigeno143/OCSAutoScript/master"
 else
-	source="https://raw.githubusercontent.com/Clrkz/VPSAutoScrptz/master"
+	source="https://raw.githubusercontent.com/shigeno143/OCSAutoScript/master"
 fi
 
 # go to root
