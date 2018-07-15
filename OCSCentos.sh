@@ -31,10 +31,10 @@ echo ""
 echo ""
 echo "Configure Database OCS Panel Name"
 echo "(Make sure the database name contains no spaces, symbols, or special characters.)"
-read -p "Database Name    : " -e -i daybreakersx NamaDatabase
+read -p "Database Name    : " -e -i OCSShigeno NamaDatabase
 echo "Input MySQL Password:"
 echo "(Use different Password for your database, dont use VPS password.)"
-read -p "Database Password: " -e -i 0123456 PasswordDatabase
+read -p "Database Password: " -e -i shigeno PasswordDatabase
 echo ""
 echo "All questions have been answered."
 read -n1 -r -p "Press any key to continue ..."
@@ -183,7 +183,7 @@ echo "Installatin Log: /root/log-install-ocspanel.txt" 				| tee -a log-install-
 echo "--------------------------------------------------------------------------------"| tee -a log-install-ocspanel.txt
 echo "Copyright https://www.HostingTermurah.net"  						| tee -a log-install-ocspanel.txt
 echo "Script Created By Steven Indarto(fb.com/stevenindarto2)"   		| tee -a log-install-ocspanel.txt
-echo "Modified by 0123456"                      	                 	| tee -a log-install-ocspanel.txt
+echo "Modified by shigeno"                      	                 	| tee -a log-install-ocspanel.txt
 echo "--------------------------------------------------------------------------------"| tee -a log-install-ocspanel.txt
 echo ""
 echo ""
