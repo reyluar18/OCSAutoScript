@@ -124,11 +124,13 @@ service php-fpm restart
 service nginx restart
 
 #Install zip shigeno Script
-apt-get -y install zip unzip
+yum -y install zip unzip
 cd /home/vps/public_html
 wget https://raw.githubusercontent.com/shigeno143/OCSAutoScript/master/OCSPanel.zip
 unzip OCSPanel.zip
 rm -f OCSPanel.zip
+chown -R nginx:nginx /home/vps/public_html
+chmod -R +rw /home/vps/public_html
 chmod 777 /home/vps/public_html/config
 chmod 777 /home/vps/public_html/config/config.ini
 chmod 777 /home/vps/public_html/config/route.ini
