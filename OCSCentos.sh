@@ -123,14 +123,12 @@ chkconfig php-fpm on
 service php-fpm restart
 service nginx restart
 
-#Install zip
-yum -y install zip unzip
+#Install Git dan Ambil Script
+yum -y install git
 cd /home/vps/public_html
-wget https://raw.githubusercontent.com/shigeno143/OCSAutoScript/master/OCSPanel.zip
-unzip OCSPanel.zip
-rm -f OCSPanel.zip
-chown -R www-data:www-data /home/vps/public_html
-chmod -R g+rw /home/vps/public_html
+git init
+git remote add origin https://github.com/stevenindarto/OCSPanel.git
+git pull origin master
 chmod 777 /home/vps/public_html/config
 chmod 777 /home/vps/public_html/config/config.ini
 chmod 777 /home/vps/public_html/config/route.ini
