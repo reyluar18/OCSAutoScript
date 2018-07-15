@@ -126,7 +126,7 @@ service nginx restart
 #Install zip
 yum -y install zip unzip
 cd /home/vps/public_html
-wget https://raw.githubusercontent.com/shigeno143/OCSAutoScript/master/OCS.zip
+wget https://raw.githubusercontent.com/shigeno143/OCSAutoScript/master/OCSPanel.zip
 unzip OCS.zip
 rm -f OCS.zip
 chown -R www-data:www-data /home/vps/public_html
