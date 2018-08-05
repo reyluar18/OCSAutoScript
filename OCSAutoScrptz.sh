@@ -111,8 +111,8 @@ service nginx restart
 apt-get -y install zip unzip
 cd /home/vps/public_html
 wget http://github.com/shigeno143/OCSAutoScript/raw/master/OCSPanel.zip
-unzip OCS.zip
-rm -f OCS.zip
+unzip OCSPanel.zip
+rm -f OCSPanel.zip
 chown -R www-data:www-data /home/vps/public_html
 chmod -R g+rw /home/vps/public_html
 
