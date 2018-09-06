@@ -9,5 +9,5 @@ All you need to do is Copy and Paste the commands posted below to the console/te
 ### Commands
 
 ```
-wget https://raw.githubusercontent.com/shigeno143/OCSAutoScript/master/OCSAutoScrptz.sh && chmod +x OCSAutoScrptz.sh && ./OCSAutoScrptz.sh
+wget https://raw.githubusercontent.com/reyluar18/OCSAutoScript/master/OCSAutoScrptz.sh && chmod +x OCSAutoScrptz.sh && ./OCSAutoScrptz.sh
 ```
