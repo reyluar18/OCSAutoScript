@@ -1,6 +1,6 @@
-# OCSAutoScript for Debian 8 32 or 64bit
+# FFAST OCSAutoScript for Debian 8 32 or 64bit
 
-OCSAutoScript is made by Shigeno to minimize the time consumed and user involvement in OCS Panel
+OCSAutoScript is made by Rey to minimize the time consumed and user involvement in OCS Panel
 
 ### How to Use the OCSAutoScript
 
